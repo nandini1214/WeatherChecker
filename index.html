@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Checker</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="card">
+        <h1>Weather-checker</h1>
+        <div class="search-box">
+            <input type="text" name="search" id="search" placeholder="search city..." spellcheck="false">
+            <button id="search-btn"><img src="Assests/search.png" alt="search-icon" width="100%" height="100%"></button>
+        </div>
+        <div class="weather-info">
+            <img class= "weather-icon" src="Assests/cloudy.png" alt="weather-icon">
+            <p class="desc">sunny</p>
+            <h2 class="temp">25°C</h2>
+            <h2 class="city">City Name</h2>
+        </div>
+        <div class="extra-info">
+            <div class="humidity">
+                <img src="Assests/humidity.png" alt="humidity">
+                <div class="abt-humidity">
+                    <h3 class="humidity-percent">50%</h3>
+                    <p>Humidity</p>
+                </div>
+            </div>
+            <div class="wind">
+                <img src="Assests/wind.png" alt="wind">
+                <div class="abt-wind">
+                    <h3 class="wind-value">10km/h</h3>
+                    <p>Wind</p>
+                </div>
+                
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
